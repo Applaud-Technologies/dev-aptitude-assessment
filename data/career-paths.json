@@ -1,0 +1,257 @@
+{
+  "careerPaths": [
+    {
+      "id": "backend_dev",
+      "name": "Backend Development",
+      "requiredStrengths": ["Logical Reasoning", "Mathematical Reasoning", "Systematic Problem-Solving"],
+      "matchScore": {
+        "Logical Reasoning": 0.35,
+        "Mathematical Reasoning": 0.25,
+        "Systematic Problem-Solving": 0.25,
+        "Rule Application": 0.15
+      },
+      "description": "Focus on server-side logic, databases, and API development",
+      "skills": [
+        "API design and development",
+        "Database management and optimization",
+        "Server architecture",
+        "Authentication and security",
+        "Performance optimization"
+      ],
+      "roles": ["Backend Developer", "API Developer", "Database Engineer", "Systems Engineer"],
+      "salaryRange": "$70,000 - $150,000"
+    },
+    {
+      "id": "frontend_dev",
+      "name": "Frontend Development",
+      "requiredStrengths": ["Spatial & Visual Reasoning", "Attention to Detail", "Systematic Problem-Solving"],
+      "matchScore": {
+        "Spatial & Visual Reasoning": 0.40,
+        "Attention to Detail": 0.30,
+        "Abstract Thinking": 0.20,
+        "Systematic Problem-Solving": 0.10
+      },
+      "description": "Build user interfaces and create engaging user experiences",
+      "skills": [
+        "HTML, CSS, JavaScript frameworks",
+        "Responsive design",
+        "UI/UX implementation",
+        "Cross-browser compatibility",
+        "Performance optimization"
+      ],
+      "roles": ["Frontend Developer", "UI Developer", "React Developer", "Vue Developer"],
+      "salaryRange": "$65,000 - $140,000"
+    },
+    {
+      "id": "fullstack_dev",
+      "name": "Full-Stack Development",
+      "requiredStrengths": ["Logical Reasoning", "Systematic Problem-Solving", "Abstract Thinking"],
+      "matchScore": {
+        "Logical Reasoning": 0.25,
+        "Systematic Problem-Solving": 0.25,
+        "Abstract Thinking": 0.20,
+        "Spatial & Visual Reasoning": 0.15,
+        "Rule Application": 0.15
+      },
+      "description": "Work across the entire application stack from frontend to backend",
+      "skills": [
+        "Both frontend and backend technologies",
+        "Full application architecture",
+        "Database design",
+        "API integration",
+        "DevOps basics"
+      ],
+      "roles": ["Full-Stack Developer", "Software Engineer", "Web Developer"],
+      "salaryRange": "$75,000 - $160,000"
+    },
+    {
+      "id": "software_architecture",
+      "name": "Software Architecture",
+      "requiredStrengths": ["Pattern Recognition & Sequences", "Abstract Thinking", "Systematic Problem-Solving"],
+      "matchScore": {
+        "Pattern Recognition & Sequences": 0.30,
+        "Abstract Thinking": 0.30,
+        "Systematic Problem-Solving": 0.25,
+        "Logical Reasoning": 0.15
+      },
+      "description": "Design high-level structure of software systems",
+      "skills": [
+        "System design patterns",
+        "Architectural patterns",
+        "Scalability planning",
+        "Technology selection",
+        "Technical leadership"
+      ],
+      "roles": ["Software Architect", "Solutions Architect", "Technical Architect", "Principal Engineer"],
+      "salaryRange": "$120,000 - $200,000+"
+    },
+    {
+      "id": "qa_engineering",
+      "name": "QA Engineering",
+      "requiredStrengths": ["Attention to Detail", "Rule Application", "Systematic Problem-Solving"],
+      "matchScore": {
+        "Attention to Detail": 0.40,
+        "Rule Application": 0.30,
+        "Systematic Problem-Solving": 0.20,
+        "Logical Reasoning": 0.10
+      },
+      "description": "Ensure software quality through testing and validation",
+      "skills": [
+        "Test automation",
+        "Manual testing",
+        "Test case design",
+        "Bug tracking and reporting",
+        "CI/CD integration"
+      ],
+      "roles": ["QA Engineer", "Test Automation Engineer", "Quality Assurance Analyst", "SDET"],
+      "salaryRange": "$60,000 - $130,000"
+    },
+    {
+      "id": "devops_sre",
+      "name": "DevOps / SRE",
+      "requiredStrengths": ["Systematic Problem-Solving", "Rule Application", "Attention to Detail"],
+      "matchScore": {
+        "Systematic Problem-Solving": 0.35,
+        "Rule Application": 0.30,
+        "Attention to Detail": 0.20,
+        "Logical Reasoning": 0.15
+      },
+      "description": "Manage infrastructure, deployment, and system reliability",
+      "skills": [
+        "CI/CD pipelines",
+        "Infrastructure as Code",
+        "Monitoring and alerting",
+        "Container orchestration",
+        "Cloud platforms (AWS, Azure, GCP)"
+      ],
+      "roles": ["DevOps Engineer", "Site Reliability Engineer", "Platform Engineer", "Cloud Engineer"],
+      "salaryRange": "$80,000 - $170,000"
+    },
+    {
+      "id": "data_engineer",
+      "name": "Data Engineering",
+      "requiredStrengths": ["Mathematical Reasoning", "Logical Reasoning", "Systematic Problem-Solving"],
+      "matchScore": {
+        "Mathematical Reasoning": 0.35,
+        "Logical Reasoning": 0.30,
+        "Systematic Problem-Solving": 0.25,
+        "Abstract Thinking": 0.10
+      },
+      "description": "Build and maintain data pipelines and infrastructure",
+      "skills": [
+        "Data pipeline development",
+        "ETL processes",
+        "Big data technologies",
+        "Data warehousing",
+        "SQL and database optimization"
+      ],
+      "roles": ["Data Engineer", "ETL Developer", "Big Data Engineer", "Analytics Engineer"],
+      "salaryRange": "$85,000 - $165,000"
+    },
+    {
+      "id": "mobile_dev",
+      "name": "Mobile Development",
+      "requiredStrengths": ["Spatial & Visual Reasoning", "Attention to Detail", "Systematic Problem-Solving"],
+      "matchScore": {
+        "Spatial & Visual Reasoning": 0.35,
+        "Attention to Detail": 0.25,
+        "Systematic Problem-Solving": 0.25,
+        "Abstract Thinking": 0.15
+      },
+      "description": "Develop applications for mobile platforms (iOS, Android)",
+      "skills": [
+        "Mobile frameworks (React Native, Flutter, Swift, Kotlin)",
+        "Mobile UI/UX patterns",
+        "Platform-specific APIs",
+        "Performance optimization",
+        "App store deployment"
+      ],
+      "roles": ["Mobile Developer", "iOS Developer", "Android Developer", "Cross-Platform Developer"],
+      "salaryRange": "$70,000 - $150,000"
+    },
+    {
+      "id": "security_engineer",
+      "name": "Security Engineering",
+      "requiredStrengths": ["Attention to Detail", "Logical Reasoning", "Rule Application"],
+      "matchScore": {
+        "Attention to Detail": 0.35,
+        "Logical Reasoning": 0.30,
+        "Rule Application": 0.25,
+        "Systematic Problem-Solving": 0.10
+      },
+      "description": "Protect systems and data from security threats",
+      "skills": [
+        "Security best practices",
+        "Penetration testing",
+        "Vulnerability assessment",
+        "Security compliance",
+        "Incident response"
+      ],
+      "roles": ["Security Engineer", "Application Security Engineer", "Security Analyst", "Cybersecurity Specialist"],
+      "salaryRange": "$85,000 - $175,000"
+    },
+    {
+      "id": "game_dev",
+      "name": "Game Development",
+      "requiredStrengths": ["Spatial & Visual Reasoning", "Mathematical Reasoning", "Abstract Thinking"],
+      "matchScore": {
+        "Spatial & Visual Reasoning": 0.40,
+        "Mathematical Reasoning": 0.25,
+        "Abstract Thinking": 0.20,
+        "Logical Reasoning": 0.15
+      },
+      "description": "Create interactive games and gaming experiences",
+      "skills": [
+        "Game engines (Unity, Unreal)",
+        "Physics and mathematics",
+        "3D graphics and rendering",
+        "Game design patterns",
+        "Performance optimization"
+      ],
+      "roles": ["Game Developer", "Game Programmer", "Engine Developer", "Graphics Programmer"],
+      "salaryRange": "$60,000 - $140,000"
+    },
+    {
+      "id": "systems_programming",
+      "name": "Systems Programming",
+      "requiredStrengths": ["Logical Reasoning", "Mathematical Reasoning", "Attention to Detail"],
+      "matchScore": {
+        "Logical Reasoning": 0.35,
+        "Mathematical Reasoning": 0.30,
+        "Attention to Detail": 0.20,
+        "Systematic Problem-Solving": 0.15
+      },
+      "description": "Develop low-level software like operating systems and drivers",
+      "skills": [
+        "C/C++, Rust",
+        "Memory management",
+        "Operating system concepts",
+        "Hardware interaction",
+        "Performance optimization"
+      ],
+      "roles": ["Systems Programmer", "Embedded Systems Engineer", "Kernel Developer", "Firmware Engineer"],
+      "salaryRange": "$80,000 - $160,000"
+    },
+    {
+      "id": "algorithm_design",
+      "name": "Algorithm Design & Research",
+      "requiredStrengths": ["Pattern Recognition & Sequences", "Mathematical Reasoning", "Logical Reasoning"],
+      "matchScore": {
+        "Pattern Recognition & Sequences": 0.35,
+        "Mathematical Reasoning": 0.35,
+        "Logical Reasoning": 0.20,
+        "Abstract Thinking": 0.10
+      },
+      "description": "Design and optimize algorithms for complex problems",
+      "skills": [
+        "Algorithm analysis",
+        "Data structures",
+        "Complexity analysis",
+        "Optimization techniques",
+        "Mathematical modeling"
+      ],
+      "roles": ["Algorithm Engineer", "Research Engineer", "Computational Scientist", "ML Engineer"],
+      "salaryRange": "$90,000 - $180,000+"
+    }
+  ]
+}

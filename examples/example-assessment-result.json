@@ -1,0 +1,317 @@
+{
+  "assessmentId": "asmt_2025_001234",
+  "userId": "user_12345",
+  "completedAt": "2025-12-09T14:30:00Z",
+  "overall": {
+    "score": 84.48,
+    "maxPossible": 152,
+    "earnedPoints": 128.5,
+    "percentage": 84.48,
+    "tier": 4,
+    "rank": "Advanced"
+  },
+  "categories": [
+    {
+      "name": "Pattern Recognition & Sequences",
+      "code": "pattern_recognition",
+      "earnedPoints": 20,
+      "maxPoints": 20,
+      "percentage": 100.0,
+      "totalWeight": 6,
+      "weightedContribution": 13.04,
+      "tier": 5,
+      "rank": "Expert",
+      "classification": "exceptional",
+      "questionCount": 2,
+      "correctCount": 2,
+      "partialCreditCount": 0,
+      "incorrectCount": 0,
+      "questions": ["pr-001", "pr-002"]
+    },
+    {
+      "name": "Logical Reasoning",
+      "code": "logical_reasoning",
+      "earnedPoints": 12.5,
+      "maxPoints": 20,
+      "percentage": 62.5,
+      "totalWeight": 6,
+      "weightedContribution": 8.15,
+      "tier": 3,
+      "rank": "Intermediate",
+      "classification": "adequate",
+      "questionCount": 2,
+      "correctCount": 1,
+      "partialCreditCount": 1,
+      "incorrectCount": 0,
+      "questions": ["lr-001", "lr-002"]
+    },
+    {
+      "name": "Abstract Thinking",
+      "code": "abstract_thinking",
+      "earnedPoints": 12,
+      "maxPoints": 12,
+      "percentage": 100.0,
+      "totalWeight": 4,
+      "weightedContribution": 8.70,
+      "tier": 5,
+      "rank": "Expert",
+      "classification": "exceptional",
+      "questionCount": 1,
+      "correctCount": 1,
+      "partialCreditCount": 0,
+      "incorrectCount": 0,
+      "questions": ["at-001"]
+    },
+    {
+      "name": "Systematic Problem-Solving",
+      "code": "systematic_problem_solving",
+      "earnedPoints": 17,
+      "maxPoints": 22,
+      "percentage": 77.27,
+      "totalWeight": 7,
+      "weightedContribution": 11.81,
+      "tier": 4,
+      "rank": "Advanced",
+      "classification": "strength",
+      "questionCount": 2,
+      "correctCount": 1,
+      "partialCreditCount": 1,
+      "incorrectCount": 0,
+      "questions": ["sp-001", "sp-002"]
+    },
+    {
+      "name": "Attention to Detail",
+      "code": "attention_to_detail",
+      "earnedPoints": 13,
+      "maxPoints": 18,
+      "percentage": 72.22,
+      "totalWeight": 5,
+      "weightedContribution": 7.88,
+      "tier": 4,
+      "rank": "Advanced",
+      "classification": "strength",
+      "questionCount": 2,
+      "correctCount": 1,
+      "partialCreditCount": 1,
+      "incorrectCount": 0,
+      "questions": ["ad-001", "ad-002"]
+    },
+    {
+      "name": "Spatial & Visual Reasoning",
+      "code": "spatial_visual_reasoning",
+      "earnedPoints": 19,
+      "maxPoints": 22,
+      "percentage": 86.36,
+      "totalWeight": 7,
+      "weightedContribution": 13.20,
+      "tier": 5,
+      "rank": "Expert",
+      "classification": "exceptional",
+      "questionCount": 2,
+      "correctCount": 1,
+      "partialCreditCount": 1,
+      "incorrectCount": 0,
+      "questions": ["sv-001", "sv-002"]
+    },
+    {
+      "name": "Mathematical Reasoning",
+      "code": "mathematical_reasoning",
+      "earnedPoints": 16,
+      "maxPoints": 16,
+      "percentage": 100.0,
+      "totalWeight": 4,
+      "weightedContribution": 8.70,
+      "tier": 5,
+      "rank": "Expert",
+      "classification": "exceptional",
+      "questionCount": 2,
+      "correctCount": 2,
+      "partialCreditCount": 0,
+      "incorrectCount": 0,
+      "questions": ["mr-001", "mr-002"]
+    },
+    {
+      "name": "Rule Application",
+      "code": "rule_application",
+      "earnedPoints": 19,
+      "maxPoints": 22,
+      "percentage": 86.36,
+      "totalWeight": 7,
+      "weightedContribution": 13.20,
+      "tier": 5,
+      "rank": "Expert",
+      "classification": "exceptional",
+      "questionCount": 2,
+      "correctCount": 1,
+      "partialCreditCount": 1,
+      "incorrectCount": 0,
+      "questions": ["ra-001", "ra-002"]
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "pr-001",
+      "category": "Pattern Recognition & Sequences",
+      "type": "multipleChoice",
+      "userAnswers": [2],
+      "correctAnswers": [2],
+      "earnedPoints": 10,
+      "maxPoints": 10,
+      "percentage": 100,
+      "isCorrect": true,
+      "isPartialCredit": false,
+      "weight": 3,
+      "timeSpent": 45
+    },
+    {
+      "questionId": "lr-002",
+      "category": "Logical Reasoning",
+      "type": "multipleSelect",
+      "userAnswers": [2, 3],
+      "correctAnswers": [2, 3],
+      "earnedPoints": 15,
+      "maxPoints": 15,
+      "percentage": 100,
+      "isCorrect": true,
+      "isPartialCredit": false,
+      "partialCreditDetails": {
+        "correctSelections": 2,
+        "incorrectSelections": 0,
+        "missedSelections": 0,
+        "correctRatio": 1.0,
+        "penaltyFactor": 1.0
+      },
+      "weight": 4,
+      "timeSpent": 90
+    }
+  ],
+  "analysis": {
+    "exceptional": [
+      { "name": "Pattern Recognition & Sequences", "percentage": 100, "tier": 5, "questionCount": 2 },
+      { "name": "Abstract Thinking", "percentage": 100, "tier": 5, "questionCount": 1 },
+      { "name": "Mathematical Reasoning", "percentage": 100, "tier": 5, "questionCount": 2 },
+      { "name": "Spatial & Visual Reasoning", "percentage": 86.36, "tier": 5, "questionCount": 2 },
+      { "name": "Rule Application", "percentage": 86.36, "tier": 5, "questionCount": 2 }
+    ],
+    "strengths": [
+      { "name": "Systematic Problem-Solving", "percentage": 77.27, "tier": 4, "questionCount": 2 }
+    ],
+    "adequate": [
+      { "name": "Logical Reasoning", "percentage": 62.5, "tier": 3, "questionCount": 2 }
+    ],
+    "weaknesses": [],
+    "criticalWeaknesses": [],
+    "consistencyScore": 82.5,
+    "improvementPotential": "medium"
+  },
+  "recommendations": {
+    "careerPaths": [
+      {
+        "path": "Software Architecture",
+        "matchReason": "Your strong Pattern Recognition & Sequences and Abstract Thinking skills make you well-suited for Software Architecture",
+        "relevantStrengths": ["Pattern Recognition & Sequences", "Abstract Thinking", "Mathematical Reasoning"],
+        "requiredSkills": [
+          "System design patterns",
+          "Architectural patterns",
+          "Scalability planning",
+          "Technology selection",
+          "Technical leadership"
+        ],
+        "priority": "primary",
+        "matchScore": 87.5
+      },
+      {
+        "path": "Full-Stack Development",
+        "matchReason": "Your strong Logical Reasoning and Systematic Problem-Solving skills make you well-suited for Full-Stack Development",
+        "relevantStrengths": ["Logical Reasoning", "Systematic Problem-Solving"],
+        "requiredSkills": [
+          "Both frontend and backend technologies",
+          "Full application architecture",
+          "Database design",
+          "API integration",
+          "DevOps basics"
+        ],
+        "priority": "primary",
+        "matchScore": 82.3
+      },
+      {
+        "path": "Frontend Development",
+        "matchReason": "Your strong Spatial & Visual Reasoning skills make you well-suited for Frontend Development",
+        "relevantStrengths": ["Spatial & Visual Reasoning", "Attention to Detail"],
+        "requiredSkills": [
+          "HTML, CSS, JavaScript frameworks",
+          "Responsive design",
+          "UI/UX implementation",
+          "Cross-browser compatibility",
+          "Performance optimization"
+        ],
+        "priority": "secondary",
+        "matchScore": 76.8
+      }
+    ],
+    "focusAreas": [
+      {
+        "category": "Logical Reasoning",
+        "priority": "medium",
+        "currentScore": 62.5,
+        "targetScore": 85,
+        "reason": "Close to strength level, can reach exceptional with practice",
+        "estimatedEffort": "2-3 weeks of regular practice"
+      }
+    ],
+    "learningResources": [
+      {
+        "category": "Logical Reasoning",
+        "type": "course",
+        "title": "Introduction to Logic and Critical Thinking",
+        "description": "Learn fundamental logical reasoning, conditional statements, and deductive reasoning",
+        "duration": "4 weeks",
+        "difficulty": "beginner",
+        "cost": "free",
+        "provider": "Coursera",
+        "tags": ["logic", "critical-thinking", "deduction"]
+      },
+      {
+        "category": "Logical Reasoning",
+        "type": "practice",
+        "title": "Logic Puzzles and Brain Teasers",
+        "description": "Collection of logic puzzles to sharpen reasoning skills",
+        "duration": "20 min/day",
+        "difficulty": "intermediate",
+        "cost": "free",
+        "provider": "BrainTeaser.com",
+        "tags": ["puzzles", "brain-teasers", "practice"]
+      }
+    ],
+    "nextSteps": [
+      "Begin practical coding training immediately",
+      "Consider accelerated learning track or bootcamp",
+      "Build portfolio projects showcasing your strengths",
+      "Priority: Improve Logical Reasoning (currently 63%)",
+      "Consider specialized tracks leveraging your Pattern Recognition & Sequences and Abstract Thinking skills",
+      "Pair with senior mentor for rapid growth and industry insights"
+    ],
+    "roleSuitability": {
+      "assessment": "Excellent candidate for developer roles with strong potential",
+      "timeline": "Ready to start within 3-6 months with intensive training",
+      "readinessLevel": "high",
+      "recommendedRoles": [
+        "Junior Developer",
+        "Associate Software Engineer",
+        "Entry-level roles in specialized areas"
+      ],
+      "keyStrengths": [
+        "Pattern Recognition & Sequences",
+        "Abstract Thinking",
+        "Mathematical Reasoning"
+      ],
+      "areasNeedingDevelopment": []
+    }
+  },
+  "metadata": {
+    "totalQuestions": 15,
+    "questionsAnswered": 15,
+    "timeSpent": 1245,
+    "version": "1.0"
+  }
+}

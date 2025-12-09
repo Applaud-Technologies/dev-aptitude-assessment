@@ -1,0 +1,246 @@
+{
+  "questions": [
+    {
+      "id": "pr-001",
+      "text": "What comes next in this sequence: 2, 4, 8, 16, ?",
+      "type": "multipleChoice",
+      "category": "Pattern Recognition & Sequences",
+      "answers": [
+        { "id": 0, "text": "20" },
+        { "id": 1, "text": "24" },
+        { "id": 2, "text": "32" },
+        { "id": 3, "text": "30" }
+      ],
+      "correctAnswers": [2],
+      "score": 10,
+      "weight": 3
+    },
+    {
+      "id": "pr-002",
+      "text": "Which number breaks the pattern: 3, 6, 9, 13, 15, 18?",
+      "type": "multipleChoice",
+      "category": "Pattern Recognition & Sequences",
+      "answers": [
+        { "id": 0, "text": "3" },
+        { "id": 1, "text": "13" },
+        { "id": 2, "text": "15" },
+        { "id": 3, "text": "18" }
+      ],
+      "correctAnswers": [1],
+      "score": 10,
+      "weight": 3
+    },
+    {
+      "id": "lr-001",
+      "text": "If all birds can fly, and a penguin is a bird, then a penguin can fly.",
+      "type": "trueFalse",
+      "category": "Logical Reasoning",
+      "answers": [
+        { "id": 0, "text": "True" },
+        { "id": 1, "text": "False" }
+      ],
+      "correctAnswers": [1],
+      "score": 5,
+      "weight": 2
+    },
+    {
+      "id": "lr-002",
+      "text": "Which of the following are valid conclusions from: 'All cats are mammals. Some mammals live in water.'?",
+      "type": "multipleSelect",
+      "category": "Logical Reasoning",
+      "answers": [
+        { "id": 0, "text": "All cats live in water" },
+        { "id": 1, "text": "Some mammals are cats" },
+        { "id": 2, "text": "Not all mammals are cats" },
+        { "id": 3, "text": "Cats might not live in water" }
+      ],
+      "correctAnswers": [2, 3],
+      "score": 15,
+      "weight": 4
+    },
+    {
+      "id": "at-001",
+      "text": "If ◆ + ◆ = ★, and ★ + ◆ = ●, what does ● - ★ equal?",
+      "type": "multipleChoice",
+      "category": "Abstract Thinking",
+      "answers": [
+        { "id": 0, "text": "◆" },
+        { "id": 1, "text": "★" },
+        { "id": 2, "text": "●" },
+        { "id": 3, "text": "◆ + ◆" }
+      ],
+      "correctAnswers": [0],
+      "score": 12,
+      "weight": 4
+    },
+    {
+      "id": "sp-001",
+      "text": "You need to fill a pool using two pipes. Pipe A fills it in 4 hours, Pipe B fills it in 6 hours. What is the correct order of steps to calculate how long both pipes together take?",
+      "type": "multipleChoice",
+      "category": "Systematic Problem-Solving",
+      "answers": [
+        { "id": 0, "text": "1) Add the hours 2) Divide by 2" },
+        { "id": 1, "text": "1) Find rate per hour for each 2) Add rates 3) Take reciprocal" },
+        { "id": 2, "text": "1) Multiply the hours 2) Divide by sum" },
+        { "id": 3, "text": "1) Subtract smaller from larger" }
+      ],
+      "correctAnswers": [1],
+      "score": 12,
+      "weight": 4
+    },
+    {
+      "id": "sp-002",
+      "text": "To solve a complex problem, which steps are essential? (Select all that apply)",
+      "type": "multipleSelect",
+      "category": "Systematic Problem-Solving",
+      "answers": [
+        { "id": 0, "text": "Break it into smaller parts" },
+        { "id": 1, "text": "Solve everything at once" },
+        { "id": 2, "text": "Test each part separately" },
+        { "id": 3, "text": "Skip verification to save time" }
+      ],
+      "correctAnswers": [0, 2],
+      "score": 10,
+      "weight": 3
+    },
+    {
+      "id": "ad-001",
+      "text": "Find the differences between these two sequences:\nSequence A: 1, 3, 5, 7, 9, 11\nSequence B: 1, 3, 5, 8, 9, 11\nWhich position has a difference?",
+      "type": "multipleChoice",
+      "category": "Attention to Detail",
+      "answers": [
+        { "id": 0, "text": "Position 2" },
+        { "id": 1, "text": "Position 4" },
+        { "id": 2, "text": "Position 5" },
+        { "id": 3, "text": "No differences" }
+      ],
+      "correctAnswers": [1],
+      "score": 8,
+      "weight": 2
+    },
+    {
+      "id": "ad-002",
+      "text": "A process requires these constraints: value must be positive AND even AND less than 100. Which values are valid? (Select all)",
+      "type": "multipleSelect",
+      "category": "Attention to Detail",
+      "answers": [
+        { "id": 0, "text": "42" },
+        { "id": 1, "text": "-8" },
+        { "id": 2, "text": "101" },
+        { "id": 3, "text": "88" }
+      ],
+      "correctAnswers": [0, 3],
+      "score": 10,
+      "weight": 3
+    },
+    {
+      "id": "sv-001",
+      "text": "If you rotate a 'L' shape 90 degrees clockwise, which shape results?",
+      "type": "multipleChoice",
+      "category": "Spatial & Visual Reasoning",
+      "answers": [
+        { "id": 0, "text": "Γ" },
+        { "id": 1, "text": "⅃" },
+        { "id": 2, "text": "┐" },
+        { "id": 3, "text": "└" }
+      ],
+      "correctAnswers": [0],
+      "score": 10,
+      "weight": 3
+    },
+    {
+      "id": "sv-002",
+      "text": "In a tree structure, if A is parent of B and C, and B is parent of D and E, which statements are true? (Select all)",
+      "type": "multipleSelect",
+      "category": "Spatial & Visual Reasoning",
+      "answers": [
+        { "id": 0, "text": "A is ancestor of D" },
+        { "id": 1, "text": "C is sibling of B" },
+        { "id": 2, "text": "D is sibling of C" },
+        { "id": 3, "text": "E is descendant of A" }
+      ],
+      "correctAnswers": [0, 1, 3],
+      "score": 12,
+      "weight": 4
+    },
+    {
+      "id": "mr-001",
+      "text": "In the expression: 3 + 4 × 2, what is the correct result?",
+      "type": "multipleChoice",
+      "category": "Mathematical Reasoning",
+      "answers": [
+        { "id": 0, "text": "14" },
+        { "id": 1, "text": "11" },
+        { "id": 2, "text": "10" },
+        { "id": 3, "text": "24" }
+      ],
+      "correctAnswers": [1],
+      "score": 8,
+      "weight": 2
+    },
+    {
+      "id": "mr-002",
+      "text": "If X + 5 = 12, what is the value of X?",
+      "type": "multipleChoice",
+      "category": "Mathematical Reasoning",
+      "answers": [
+        { "id": 0, "text": "5" },
+        { "id": 1, "text": "7" },
+        { "id": 2, "text": "12" },
+        { "id": 3, "text": "17" }
+      ],
+      "correctAnswers": [1],
+      "score": 8,
+      "weight": 2
+    },
+    {
+      "id": "ra-001",
+      "text": "Given the rules: 'Process runs only on weekdays' and 'Process requires admin approval'. When can the process run?",
+      "type": "multipleChoice",
+      "category": "Rule Application",
+      "answers": [
+        { "id": 0, "text": "Any weekday" },
+        { "id": 1, "text": "Any day with approval" },
+        { "id": 2, "text": "Weekdays with admin approval" },
+        { "id": 3, "text": "Weekends with admin approval" }
+      ],
+      "correctAnswers": [2],
+      "score": 10,
+      "weight": 3
+    },
+    {
+      "id": "ra-002",
+      "text": "Rules state: 'If temperature > 100, shut down' and 'If pressure > 50, reduce speed'. At temp=105 and pressure=60, what actions apply? (Select all)",
+      "type": "multipleSelect",
+      "category": "Rule Application",
+      "answers": [
+        { "id": 0, "text": "Shut down" },
+        { "id": 1, "text": "Reduce speed" },
+        { "id": 2, "text": "Continue normal operation" },
+        { "id": 3, "text": "No action needed" }
+      ],
+      "correctAnswers": [0, 1],
+      "score": 12,
+      "weight": 4
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "totalQuestions": 15,
+    "questionTypes": {
+      "multipleChoice": 9,
+      "trueFalse": 1,
+      "multipleSelect": 5
+    },
+    "categories": {
+      "Pattern Recognition & Sequences": 2,
+      "Logical Reasoning": 2,
+      "Abstract Thinking": 1,
+      "Systematic Problem-Solving": 2,
+      "Attention to Detail": 2,
+      "Spatial & Visual Reasoning": 2,
+      "Mathematical Reasoning": 2,
+      "Rule Application": 2
+    }
+  }
+}

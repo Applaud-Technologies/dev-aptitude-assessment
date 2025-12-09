@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Question Template Schema",
+  "description": "Template for Developer Aptitude Assessment questions supporting multiple choice, true/false, and multiple select question types",
+  "definitions": {
+    "question": {
+      "type": "object",
+      "required": ["id", "text", "type", "category", "answers", "correctAnswers", "score", "weight"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the question"
+        },
+        "text": {
+          "type": "string",
+          "description": "The question text presented to the user"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["multipleChoice", "trueFalse", "multipleSelect"],
+          "description": "Type of question: multipleChoice (single correct answer from 3+ options), trueFalse (binary choice), multipleSelect (multiple correct answers)"
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "Pattern Recognition & Sequences",
+            "Logical Reasoning",
+            "Abstract Thinking",
+            "Systematic Problem-Solving",
+            "Attention to Detail",
+            "Spatial & Visual Reasoning",
+            "Mathematical Reasoning",
+            "Rule Application"
+          ],
+          "description": "Assessment category this question belongs to"
+        },
+        "answers": {
+          "type": "array",
+          "description": "Array of possible answers",
+          "items": {
+            "type": "object",
+            "required": ["id", "text"],
+            "properties": {
+              "id": {
+                "type": "number",
+                "description": "Index/ID of this answer option (0-based)"
+              },
+              "text": {
+                "type": "string",
+                "description": "Answer text displayed to user"
+              }
+            }
+          }
+        },
+        "correctAnswers": {
+          "type": "array",
+          "description": "Array of indices pointing to correct answer(s) in the answers array",
+          "items": {
+            "type": "number"
+          }
+        },
+        "score": {
+          "type": "number",
+          "description": "Base points awarded for answering correctly",
+          "minimum": 0
+        },
+        "weight": {
+          "type": "number",
+          "description": "Category weight/importance (typically 1-5, higher = more important)",
+          "minimum": 1
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "id": "mc-001",
+      "text": "What comes next in this sequence: 2, 4, 8, 16, ?",
+      "type": "multipleChoice",
+      "category": "Pattern Recognition & Sequences",
+      "answers": [
+        { "id": 0, "text": "20" },
+        { "id": 1, "text": "24" },
+        { "id": 2, "text": "32" },
+        { "id": 3, "text": "30" }
+      ],
+      "correctAnswers": [2],
+      "score": 10,
+      "weight": 3
+    },
+    {
+      "id": "tf-001",
+      "text": "If all birds can fly, and a penguin is a bird, then a penguin can fly.",
+      "type": "trueFalse",
+      "category": "Logical Reasoning",
+      "answers": [
+        { "id": 0, "text": "True" },
+        { "id": 1, "text": "False" }
+      ],
+      "correctAnswers": [1],
+      "score": 5,
+      "weight": 2
+    },
+    {
+      "id": "ms-001",
+      "text": "Which of the following are valid conclusions from: 'All cats are mammals. Some mammals live in water.'?",
+      "type": "multipleSelect",
+      "category": "Logical Reasoning",
+      "answers": [
+        { "id": 0, "text": "All cats live in water" },
+        { "id": 1, "text": "Some mammals are cats" },
+        { "id": 2, "text": "Not all mammals are cats" },
+        { "id": 3, "text": "Cats might not live in water" }
+      ],
+      "correctAnswers": [2, 3],
+      "score": 15,
+      "weight": 4
+    }
+  ]
+}
