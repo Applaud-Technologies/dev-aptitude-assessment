@@ -1,0 +1,41 @@
+{
+  "name": "dev-aptitude-assessment",
+  "version": "1.0.0",
+  "description": "Developer Aptitude Assessment - Evaluate junior developers' aptitude for software development",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "example": "npm run build && node dist/examples/usage-example.js",
+    "test": "echo \"No tests yet\" && exit 0",
+    "clean": "rimraf dist",
+    "dev": "ts-node examples/usage-example.ts"
+  },
+  "keywords": [
+    "assessment",
+    "aptitude",
+    "developer",
+    "evaluation",
+    "scoring",
+    "career",
+    "recommendations"
+  ],
+  "author": "Applaud Technologies",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Applaud-Technologies/dev-aptitude-assessment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Applaud-Technologies/dev-aptitude-assessment/issues"
+  },
+  "homepage": "https://github.com/Applaud-Technologies/dev-aptitude-assessment#readme"
+}

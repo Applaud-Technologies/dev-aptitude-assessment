@@ -116,7 +116,7 @@ export interface ClassificationDistribution {
   strength: { count: number; percentage: number };
   adequate: { count: number; percentage: number };
   weakness: { count: number; percentage: number };
-  criticalWeakness: { count: number; percentage: number };
+  'critical-weakness': { count: number; percentage: number };
 }
 
 /**
@@ -133,7 +133,7 @@ export function getClassificationDistribution(
     strength: { count: 0, percentage: 0 },
     adequate: { count: 0, percentage: 0 },
     weakness: { count: 0, percentage: 0 },
-    criticalWeakness: { count: 0, percentage: 0 },
+    'critical-weakness': { count: 0, percentage: 0 },
   };
 
   // Count scores in each classification

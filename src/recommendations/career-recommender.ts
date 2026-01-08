@@ -23,8 +23,8 @@ import {
 import { PerformanceAnalysis } from '../types/analysis.types';
 import { getReadinessLevel } from '../constants/tiers';
 
-// Load data files
-const DATA_DIR = path.join(__dirname, '../../data');
+// Load data files - use process.cwd() to get project root
+const DATA_DIR = path.join(process.cwd(), 'data');
 const careerPathsData = JSON.parse(
   fs.readFileSync(path.join(DATA_DIR, 'career-paths.json'), 'utf-8')
 );

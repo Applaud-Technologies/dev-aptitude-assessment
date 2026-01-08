@@ -162,7 +162,7 @@ export interface ComparativeAnalysis {
   percentile: number;
 
   /** Performance relative to benchmark */
-  relativePer formance: 'above-average' | 'average' | 'below-average';
+  relativePerformance: 'above-average' | 'average' | 'below-average';
 
   /** Category-by-category comparison */
   categoryComparisons: CategoryComparison[];
